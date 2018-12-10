@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_10_213952) do
+ActiveRecord::Schema.define(version: 2018_12_10_214655) do
 
   create_table "resources", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "bucket_name"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2018_12_10_213952) do
     t.bigint "team_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "name"
     t.index ["team_id"], name: "index_resources_on_team_id"
   end
 

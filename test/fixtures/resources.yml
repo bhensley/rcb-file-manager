@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  bucket_name: MyString
+  bucket_region: MyString
+  identity_pool_id: MyString
+  album_path: MyString
+  team: one
+
+two:
+  bucket_name: MyString
+  bucket_region: MyString
+  identity_pool_id: MyString
+  album_path: MyString
+  team: two

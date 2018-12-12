@@ -1,0 +1,30 @@
+<h1>
+  RCB File Manager Administration
+</h1>
+
+<div class="list-group">
+  <%= link_to users_path, class: 'list-group-item list-group-item-action flex-column align-items-start' do %>
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Users</h5>
+    </div>
+    <p class="mb-1">
+      Create and remove users.
+    </p>
+  <% end %>
+  <%= link_to teams_path, class: 'list-group-item list-group-item-action flex-column align-items-start' do %>
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Teams</h5>
+    </div>
+    <p class="mb-1">
+      Create and remove teams; add or remove users within teams.
+    </p>
+  <% end %>
+  <%= link_to resources_path, class: 'list-group-item list-group-item-action flex-column align-items-start' do %>
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Resources</h5>
+    </div>
+    <p class="mb-1">
+      Create and remove resources; add or remove resources from teams.
+    </p>
+  <% end %>
+</div>

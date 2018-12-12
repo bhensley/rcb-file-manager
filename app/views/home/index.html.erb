@@ -1,2 +1,36 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<h1>
+  Document Library
+</h1>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>File Name</th>
+      <th>File Path</th>
+      <th>Size</th>
+      <th>Last Modified</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% if @files && @files.count > 0 %>
+      <% @files.each do |k, v| %>
+        <tr>
+          <td colspan="4" class="album-heading"><%= k %></td>
+        </tr>
+
+        <% v[1].each do |f| %>
+          <tr>
+            <td class="file_name"><%= link_to File.basename(f.key), f.public_url, target: '_blank' %></td>
+            <td class="file_path"><%= File.dirname(f.key).gsub(v[0] + '/', '') %></td>
+            <td class="file_size"><%= (f.size.to_f / (1024 * 1024)).round(2) %> MB</td>
+            <% d = DateTime.parse(f.last_modified.to_s) %>
+            <td class="file_modified"><%= d.in_time_zone('Eastern Time (US & Canada)').strftime('%d/%m/%Y @ %l:%M%P EST') %></td>
+          </tr>
+        <% end %>
+      <% end %>
+    <% else %>
+      <tr>
+        <td colspan="4" class="album-heading">Nothing To Shoiw</td>
+      </tr>
+  </tbody>
+</table>

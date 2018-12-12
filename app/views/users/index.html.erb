@@ -1,0 +1,35 @@
+<h1>Users</h1>
+<p id="notice"><%= notice %></p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>User Email</th>
+      <th>On Team</th>
+      <th>Last Logged In</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= link_to user.email, edit_user_path(user) %></td>
+        <td>
+          <% if user.team %>
+            <%= user.team.name %>
+          <% else %>
+            N/A
+          <% end %>
+        </td>
+        <td><%= user.last_sign_in_at.in_time_zone('Eastern Time (US & Canada)').strftime('%d/%m/%Y @ %l:%M%P EST') %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<div class="actions btn-group" role="group" aria-label="Actions">
+  <%= link_to 'New User', new_user_path, class: 'btn btn-primary' %>
+  <%= link_to 'Back', :back, class: 'btn btn-secondary' %>
+</div>

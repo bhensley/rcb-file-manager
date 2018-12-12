@@ -1,0 +1,27 @@
+<h1>Teams</h1>
+<p id="notice"><%= notice %></p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Team Name</th>
+      <th># Members</th>
+      <th># Resources</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @teams.each do |team| %>
+      <tr>
+        <td><%= link_to team.name, edit_team_path(team) %></td>
+        <td><%= team.users.count %></td>
+        <td><%= team.resources.count %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<div class="actions btn-group" role="group" aria-label="Actions">
+  <%= link_to 'New Team', new_team_path, class: 'btn btn-primary' %>
+  <%= link_to 'Back', :back, class: 'btn btn-secondary' %>
+</div>

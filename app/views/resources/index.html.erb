@@ -1,0 +1,27 @@
+<h1>Resources</h1>
+<p id="notice"><%= notice %></p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Resource Name</th>
+      <th>Bucket</th>
+      <th>Album Path</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @resources.each do |resource| %>
+      <tr>
+        <td><%= link_to resource.name, edit_resource_path(resource) %></td>
+        <td><%= resource.bucket_name %></td>
+        <td><%= resource.album_path %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<div class="actions btn-group" role="group" aria-label="Actions">
+  <%= link_to 'New Resource', new_resource_path, class: 'btn btn-primary' %>
+  <%= link_to 'Back', :back, class: 'btn btn-danger' %>
+</div>

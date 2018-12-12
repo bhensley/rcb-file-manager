@@ -1,0 +1,26 @@
+<%= form_with(model: team, local: true) do |f| %>
+  <% if team.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(team.errors.count, "error") %> prohibited this team from being saved:</h2>
+
+      <ul>
+      <% team.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= f.label :name %>
+    <%= f.text_field :name, class: 'form-control' %>
+  </div>
+
+  <div class="actions btn-group" role="group" aria-label="Actions">
+    <%= f.submit class: 'btn btn-primary' %>
+    <% if team.id %>
+      <%= link_to 'Delete Team', team_path(team), method: :delete, class: 'btn btn-danger' %>
+    <% end %>
+    <%= link_to 'Back', :back, class: 'btn btn-secondary' %>
+  </div>
+<% end %>

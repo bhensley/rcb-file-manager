@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.0"
 
-server '165.227.71.43', port: 3307, roles: [:web, :app, :db], primary: true
+server '165.227.71.43', port: 22, roles: [:web, :app, :db], primary: true
 
 set :application,   "rcb-file-manager"
 set :repo_url,      "git@github.com:bhensley/rcb-file-manager.git"

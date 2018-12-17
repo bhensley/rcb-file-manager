@@ -50,4 +50,3 @@ test:
 production:
   <<: *default
   database: rcb_fm_prod
-  password: <%= ENV['RCB-FILE-MANAGER_DATABASE_PASSWORD'] %>

@@ -16,8 +16,8 @@ gem 'devise'
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
 gem 'aws-sdk-s3', '~> 1'
-gem 'webpacker'
-gem 'react-rails'
+#gem 'webpacker'
+#gem 'react-rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

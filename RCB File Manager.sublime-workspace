@@ -1,0 +1,680 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"nav",
+				"nav_offset"
+			],
+			[
+				"win",
+				"win_offset"
+			],
+			[
+				"start",
+				"starting_offset"
+			],
+			[
+				"footer",
+				"footer_offset"
+			],
+			[
+				"findOne",
+				"findOneOrCreate"
+			],
+			[
+				"exten",
+				"extension_user"
+			],
+			[
+				"fr",
+				"front_page"
+			],
+			[
+				"hide",
+				"hide_inactive"
+			],
+			[
+				"search",
+				"search_by_name"
+			],
+			[
+				"filter",
+				"filterListByName"
+			],
+			[
+				"sear",
+				"search_by_name"
+			],
+			[
+				"filterListB",
+				"filterListByStatus"
+			],
+			[
+				"Exten",
+				"ExtensionUserSchema"
+			],
+			[
+				"Ex",
+				"ExtensionUserSchema"
+			],
+			[
+				"charity",
+				"charity_icon_storage"
+			],
+			[
+				"public",
+				"publicUrl"
+			],
+			[
+				"frien",
+				"friendly_id"
+			],
+			[
+				"form",
+				"formidable"
+			],
+			[
+				"_tsys",
+				"_tsys_transkey"
+			],
+			[
+				"baclg",
+				"background-color"
+			],
+			[
+				"follow",
+				"followup-action"
+			],
+			[
+				"tab",
+				"tabindex\tAttr"
+			],
+			[
+				"scrip",
+				"script_url"
+			],
+			[
+				"scr",
+				"script_url"
+			],
+			[
+				"_tsys_ap",
+				"_tsys_tsepApiServer"
+			],
+			[
+				"_tsys_de",
+				"_tsys_devID"
+			],
+			[
+				"_tsys_devi",
+				"_tsys_deviceID"
+			],
+			[
+				"_sys",
+				"_tsys_userID"
+			],
+			[
+				"_tsy",
+				"_tsys_mid"
+			],
+			[
+				"Generat",
+				"GenerateKeyResponse"
+			],
+			[
+				"http_build_",
+				"http_build_query"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/views/home/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 1131,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 344.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"wrap t",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"tml",
+				"Emmet: Merge Lines"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"coffeecom",
+				"Coffee: Fast Compile"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"pug",
+				"Set Syntax: Pug"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"javascri",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"PACK",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"ft",
+				"SFTP: Browse Server…"
+			],
+			[
+				"ftp",
+				"Preferences: SFTP Settings"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 428.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"ssh",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/controllers",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/javascript",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/javascript/components",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/javascript/packs",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/admin",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/home",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/layouts",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/resources",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/teams",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/users",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/config",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/config/environments",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/config/initializers",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/db",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/db/migrate",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/public"
+	],
+	"file_history":
+	[
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/index.pug",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-3/charity_details.pug",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/layouts/application.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/config/initializers/content_security_policy.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/javascript/packs/application.js",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/javascript/components/FilesManager.js",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/.gitignore",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/controllers/home_controller.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/home/index.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/config/webpacker.yml",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/home/index.json.jbuilder",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/Gemfile",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/devise/registrations/edit.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/controllers/resources_controller.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/controllers/users_controller.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/users/_form.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/resources/_form.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/resources/edit.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/teams/edit.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/users/edit.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/teams/_form.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/resources/index.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/models/user.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/users/index.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/teams/index.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/controllers/teams_controller.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/admin/index.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/config/routes.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/controllers/admin_controller.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/assets/stylesheets/home.scss",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/assets/stylesheets/application.scss",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/controllers/application_controller.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/helpers/home_helper.rb",
+		"/C/Users/bhensley/Documents/Clients/Beacon/Student Application/assets/coffee/uploader.coffee",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/models/resource.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/models/team.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/devise/sessions/new.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/devise/passwords/new.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/devise/passwords/edit.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/devise/registrations/new.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/devise/unlocks/new.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/views/devise/shared/_links.html.erb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/assets/javascripts/application.js",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/db/migrate/20181210215431_add_columns_to_user.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/db/migrate/20181210214819_devise_create_admins.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/models/admin.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/db/migrate/20181210213952_create_teams.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/db/migrate/20181210214655_add_name_to_resources.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/db/migrate/20181210213916_create_resources.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/db/migrate/20181210211728_devise_create_users.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/app/models/upload.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/db/migrate/20181210212756_create_resources.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/db/migrate/20181210212748_create_teams.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/db/migrate/20181210212732_create_uploads.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/db/migrate/20181210213825_create_uploads.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/config/environments/development.rb",
+		"/C/Users/bhensley/Documents/Projects/rcb-file-manager/config/database.yml",
+		"/C/Users/bhensley/Desktop/fontello-05aec480/README.txt",
+		"/C/Users/bhensley/Documents/Clients/VNH/Website/Assets Pipeline/images/sftp-config.json",
+		"/C/Users/bhensley/Documents/Clients/VNH/Website/Assets Pipeline/public/style.css",
+		"/C/Users/bhensley/Documents/Clients/VNH/Website/Assets Pipeline/config.rb",
+		"/C/Users/bhensley/Documents/Clients/VNH/Website/Assets Pipeline/config/assets.yml",
+		"/C/Users/bhensley/Documents/Clients/VNH/Website/Assets Pipeline/Guardfile",
+		"/C/Users/bhensley/Documents/Clients/VNH/Website/Assets Pipeline/sass/_variables.scss",
+		"/C/Users/bhensley/Documents/Clients/VNH/Website/Assets Pipeline/Gemfile",
+		"/C/Users/bhensley/Documents/Clients/VNH/Website/Assets Pipeline/public/sftp-config.json",
+		"/C/Users/bhensley/Documents/Clients/NECC/assets/out/sftp-config.json",
+		"/C/Users/bhensley/Documents/Clients/Beacon/Student Application/config/assets.yml",
+		"/C/Users/bhensley/Documents/Clients/Beacon/Student Application/Guardfile",
+		"/C/Users/bhensley/Documents/Clients/NECC/assets/sass/style.scss",
+		"/C/Users/bhensley/Documents/Clients/NECC/assets/Gemfile",
+		"/C/Users/bhensley/Documents/Clients/NECC/assets/Guardfile",
+		"/C/Users/bhensley/Documents/Clients/CathWear/woocommerce-one-page-checkout/woocommerce-one-page-checkout.php",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/woocommerce-one-page-checkout.php",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/functions.php",
+		"/C/Users/bhensley/Documents/Scripts/Show PHP Version in Admin Bar (WordPress)",
+		"/C/Users/bhensley/Documents/Clients/NECC/assets/out/style.css",
+		"/C/Users/bhensley/Documents/Projects/miniPaint/src/css/menu.css",
+		"/C/Users/bhensley/Documents/Clients/NECC/assets/out/script/necc.js",
+		"/C/Users/bhensley/Documents/Projects/miniPaint/src/css/layout.css",
+		"/C/Users/bhensley/Documents/Projects/miniPaint/src/css/popup.css",
+		"/C/Users/bhensley/Documents/Projects/miniPaint/index.html",
+		"/C/Users/bhensley/Documents/Projects/miniPaint/src/js/modules/help/translate.js",
+		"/C/Users/bhensley/Documents/Projects/miniPaint/src/js/modules/help/about.js",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/product-attributes.php",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/title.php",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/meta.php",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/product-image.php",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/content-single-product.php",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/archive-product.php",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/content-page.php",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/sidebar.php",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/single-project.php",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/single-product.php",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/style.css",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/tabs.php",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/short-description.php",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/price.php",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/hooks.php",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/jquery.raptorize.1.0.js",
+		"/C/Users/bhensley/Desktop/test.html",
+		"/C/Users/bhensley/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.errors.log",
+		"/C/Users/bhensley/Documents/Clients/NECC/necc.js",
+		"/C/Users/bhensley/Documents/Clients/NECC/assets/out/screen.css",
+		"/C/Users/bhensley/Documents/Clients/NECC/assets/css/screen.css",
+		"/C/Users/bhensley/Documents/Clients/NECC/assets/stylesheets/screen.css",
+		"/C/Users/bhensley/Documents/Clients/NECC/assets/javascript/jquery.kinetic.min.js",
+		"/C/Users/bhensley/AppData/Local/Temp/7zE48AAB123/.htaccess",
+		"/C/Users/bhensley/Documents/Clients/Sanborn Head/.htaccess",
+		"/C/Users/bhensley/AppData/Local/Temp/7zOC229360F/.htaccess",
+		"/C/Users/bhensley/Documents/Clients/Beacon/Student Application/package-lock.json",
+		"/C/Users/bhensley/Documents/Clients/NECC/assets/sass/screen.scss",
+		"/C/Users/bhensley/Documents/Clients/NECC/assets/config.rb",
+		"/C/Users/bhensley/Documents/Clients/NECC/assets/css/home_blocks.scss",
+		"/C/Users/bhensley/AppData/Roaming/Sublime Text 3/Packages/User/CoffeeCompile.sublime-settings",
+		"/C/Users/bhensley/Documents/Clients/Crypto Charities/WebApp/routes/index.js",
+		"/C/Users/bhensley/Desktop/fixes.js",
+		"/C/Users/bhensley/Desktop/buddypal.html",
+		"/C/Users/bhensley/Documents/Clients/Sanborn Head/Drupal 761/INSTALL.txt",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/nvidin.php",
+		"/C/Users/bhensley/Documents/Clients/Crypto Charities/WebApp/routes/api.js",
+		"/C/Users/bhensley/Documents/Clients/Crypto Charities/WebApp/bin/www",
+		"/C/Users/bhensley/AppData/Local/Temp/fz3temp-2/a",
+		"/C/Users/bhensley/Documents/Clients/Crypto Charities/WebApp/routes/admin.js",
+		"/C/Users/bhensley/Documents/Clients/Crypto Charities/WebApp/views/layout_admin.pug",
+		"/C/Users/bhensley/Documents/Clients/Crypto Charities/WebApp/views/layout.pug",
+		"/C/Users/bhensley/Documents/Clients/Crypto Charities/WebApp/views/index.pug",
+		"/C/Users/bhensley/Documents/Clients/Crypto Charities/WebApp/views/admin_charities_new.pug"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Modified"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views/home/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								598,
+								599
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "C:\\Users\\bhensley\\Documents\\Projects\\rcb-file-manager\\app\\views\\devise\\registrations",
+							"incomplete_sync": null,
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.608333333333,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 102.0
+	},
+	"output.coffeecompile_output":
+	{
+		"height": 115.0
+	},
+	"output.exec":
+	{
+		"height": 115.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "RCB File Manager.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 360.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

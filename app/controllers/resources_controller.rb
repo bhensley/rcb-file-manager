@@ -1,5 +1,6 @@
 class ResourcesController < ApplicationController
   before_action :set_resource, only: [:show, :edit, :update, :destroy]
+  before_action :set_teams, only: [:new, :edit, :update]
 
   # GET /resources
   # GET /resources.json
@@ -25,10 +26,11 @@ class ResourcesController < ApplicationController
   # POST /resources.json
   def create
     @resource = Resource.new(resource_params)
+    @resource.team = Team.find(params[:team_id]) unless params[:team_id].nil?
 
     respond_to do |format|
       if @resource.save
-        format.html { redirect_to @resource, notice: 'Resource was successfully created.' }
+        format.html { redirect_to resources_path, notice: 'Resource was successfully created.' }
         format.json { render :show, status: :created, location: @resource }
       else
         format.html { render :new }
@@ -42,7 +44,7 @@ class ResourcesController < ApplicationController
   def update
     respond_to do |format|
       if @resource.update(resource_params)
-        format.html { redirect_to @resource, notice: 'Resource was successfully updated.' }
+        format.html { redirect_to resources_path, notice: 'Resource was successfully updated.' }
         format.json { render :show, status: :ok, location: @resource }
       else
         format.html { render :edit }
@@ -67,8 +69,13 @@ class ResourcesController < ApplicationController
       @resource = Resource.find(params[:id])
     end
 
+    # Set up teams for adding/editing resources
+    def set_teams
+      @teams = Team.all
+    end
+
     # Never trust parameters from the scary internet, only allow the white list through.
     def resource_params
-      params.fetch(:resource, {})
+      params.fetch(:resource, {}).permit(:name, :bucket_name, :bucket_region, :team_id)
     end
 end

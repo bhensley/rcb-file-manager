@@ -76,6 +76,13 @@ namespace :deploy do
     end
   end
 
+  desc 'Invoke Task'
+  task :invoke do
+    run "cd #{deploy_to}/current"
+    run "bundle exec rails #{ENV['task']} RAILS_ENV=#{rails_env}"
+  end
+
+
   before :starting,     :check_revision
   after  :finishing,    :compile_assets
   after  :finishing,    :cleanup

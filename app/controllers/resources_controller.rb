@@ -76,6 +76,6 @@ class ResourcesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def resource_params
-      params.fetch(:resource, {}).permit(:name, :bucket_name, :bucket_region, :team_id)
+      params.fetch(:resource, {}).permit(:name, :bucket_name, :bucket_region, :team_id, :album_path)
     end
 end

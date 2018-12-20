@@ -15,13 +15,9 @@ class HomeController < ApplicationController
           bucket = s3.bucket(r.bucket_name)
 
           # @files[r.bucket_name] = bucket.objects.reduce {|i| i.key.start_with?(r.album_path)}
-          @files[r.name] = Hash.new
-          @files[r.name][:album_path] = r.album_path
-          @files[r.name][:files] = []
-
-          bucket.objects.select{ |obj| obj.key.starts_with?(r.album_path) && obj.size > 0 }.each do |b|
-            @files[r.name][:files] << {file_name: b.key, file_url: b.public_url, file_size: b.size, last_modified: b.last_modified}
-          end
+          @files[r.name] = []
+          @files[r.name] << r.album_path || ''
+          @files[r.name] << bucket.objects.select{ |obj| obj.key.starts_with?(r.album_path) && obj.size > 0 } || ''
         end
       end
     end

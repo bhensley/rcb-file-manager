@@ -5,6 +5,7 @@ class CreateResources < ActiveRecord::Migration[5.2]
       t.string :bucket_region
       t.string :identity_pool_id
       t.string :album_path
+      t.integer :team_id
 
       t.timestamps
     end

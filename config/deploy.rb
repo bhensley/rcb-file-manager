@@ -8,6 +8,7 @@ set :repo_url,      "git@github.com:bhensley/rcb-file-manager.git"
 set :user,          'deploy'
 set :puma_threads,   [4, 16]
 set :puma_workers,   0
+set :rvm_type, :system
 
 # Don't change these unless you know what you're doing
 set :pty,             true

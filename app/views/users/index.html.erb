@@ -21,7 +21,13 @@
             N/A
           <% end %>
         </td>
-        <td><%= user.last_sign_in_at.in_time_zone('Eastern Time (US & Canada)').strftime('%d/%m/%Y @ %l:%M%P EST') %></td>
+        <td>
+          <% if user.last_sign_in_at %>
+            <%= user.last_sign_in_at.in_time_zone('Eastern Time (US & Canada)').strftime('%d/%m/%Y @ %l:%M%P EST') %>
+          <% else %>
+            N / A
+          <% end %>
+        </td>
       </tr>
     <% end %>
   </tbody>

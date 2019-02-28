@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   get 'admin/index'
-  
+  post '/upload/:title', to: 'uploads#index', as: 'upload', constraints: { title: %r{[^\/]+} }
+
   devise_for :users
 
   scope "/admin" do

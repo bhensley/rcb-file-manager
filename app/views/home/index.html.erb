@@ -20,7 +20,7 @@
 
         <% v[1].each do |f| %>
           <tr>
-            <td class="file_name"><%= link_to File.basename(f.key), f.public_url, target: '_blank' %></td>
+            <td class="file_name"><%= link_to File.basename(f.key), f.public_url, target: '_blank', class: "downloaded-#{f.downloaded}" %></td>
             <td class="file_path"><%= File.dirname(f.key).gsub(v[0] + '/', '') %></td>
             <td class="file_size"><%= (f.size.to_f / (1024 * 1024)).round(2) %> MB</td>
             <% d = DateTime.parse(f.last_modified.to_s) %>

@@ -18,6 +18,19 @@ class HomeController < ApplicationController
           @files[r.name] = []
           @files[r.name] << r.album_path || ''
           @files[r.name] << bucket.objects.select{ |obj| obj.key.starts_with?(r.album_path) && obj.size > 0 } || ''
+
+          # Has this been downloaded?
+          puts @files[r.name][1].map { |f|
+            upload = Upload.find_by_title(File.basename(f.key))
+            downloaded = upload && upload.downloaded
+
+            if downloaded.nil?
+              downloaded = false
+            end
+
+            f.instance_eval { class << self; self end }.send(:attr_accessor, 'downloaded')
+            f.downloaded = downloaded
+          }
         end
       end
     end
